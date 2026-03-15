@@ -13,7 +13,7 @@ and projects are nebulae.
 
 ## YouTube Video
 
-https://www.youtube.com/watch?v=9bpD2uIGnFQ
+[https://www.youtube.com/watch?v=9bpD2uIGnFQ](https://www.youtube.com/watch?v=49BJtthTURE)
 
 ## Quick start
 ```bash
