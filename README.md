@@ -2,13 +2,18 @@
 
 > Your organisation's knowledge universe — built for SharePoint Hackathon 2026
 
-![Knowledge Galaxy Screenshot](docs/screenshots/galaxy-overview.png)
+![Knowledge Galaxy Screenshot](assets/Screenshot_1.jpeg)
+![Knowledge Galaxy Screenshot](assets/Screenshot_2.jpeg)
 
 ## What is this?
 
 Knowledge Galaxy transforms SharePoint document libraries into an 
 interactive 3D galaxy where documents are stars, people are planets 
 and projects are nebulae.
+
+## YouTube Video
+
+https://www.youtube.com/watch?v=9bpD2uIGnFQ
 
 ## Quick start
 ```bash
