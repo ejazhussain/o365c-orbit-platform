@@ -1,0 +1,50 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "knowledge-galaxy-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/knowledgeGalaxy/KnowledgeGalaxyWebPart.js",
+          "manifest": "./src/webparts/knowledgeGalaxy/KnowledgeGalaxyWebPart.manifest.json"
+        }
+      ]
+    },
+    "mission-control-header-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/missionControlHeader/MissionControlHeaderApplicationCustomizer.js",
+          "manifest": "./src/extensions/missionControlHeader/MissionControlHeaderApplicationCustomizer.manifest.json"
+        }
+      ]
+    },
+    "kpi-stats-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/kpiStats/KpiStatsWebPart.js",
+          "manifest": "./src/webparts/kpiStats/KpiStatsWebPart.manifest.json"
+        }
+      ]
+    },
+    "quick-access-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/quickAccess/QuickAccessWebPart.js",
+          "manifest": "./src/webparts/quickAccess/QuickAccessWebPart.manifest.json"
+        }
+      ]
+    },
+    "live-activity-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/liveActivity/LiveActivityWebPart.js",
+          "manifest": "./src/webparts/liveActivity/LiveActivityWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "KnowledgeGalaxyWebPartStrings": "lib/webparts/knowledgeGalaxy/loc/{locale}.js"
+  }
+}

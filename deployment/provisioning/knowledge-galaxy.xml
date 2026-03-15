@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pnp:Provisioning xmlns:pnp="http://schemas.dev.office.com/PnP/2022/09/ProvisioningSchema">
+    <pnp:Preferences Generator="PnP.Framework, Version=1.18.0.0, Culture=neutral, PublicKeyToken=0d501f89f11b748c" />
+    <pnp:Templates ID="KNOWLEDGE-GALAXY-TEMPLATE">
+        <pnp:ProvisioningTemplate ID="MISSION-CONTROL" Version="1.0" BaseSiteTemplate="SITEPAGEPUBLISHING#0" Scope="RootSite">
+            <!-- ═══════════════════════════════════════
+           SITE SETTINGS
+      ════════════════════════════════════════ -->
+            <pnp:WebSettings
+        NoCrawl="false"
+        CommentsOnSitePagesDisabled="true"
+        QuickLaunchEnabled="true"
+        MembersCanShare="true" />
+            <!-- ═══════════════════════════════════════
+           NAVIGATION
+      ════════════════════════════════════════ -->
+            <pnp:Navigation>
+                <pnp:GlobalNavigation NavigationType="Structural">
+                    <pnp:StructuralNavigation RemoveExistingNodes="true">
+                        <pnp:NavigationNode Title="Home" Url="{site}/SitePages/Mission-Control.aspx" IsExternal="false" />
+                        <pnp:NavigationNode Title="Knowledge Galaxy" Url="{site}/SitePages/Mission-Control.aspx" IsExternal="false" />
+                        <pnp:NavigationNode Title="Projects" Url="{site}/Shared%20Documents" IsExternal="false" />
+                        <pnp:NavigationNode Title="People" Url="{site}/_layouts/15/people.aspx" IsExternal="false" />
+                        <pnp:NavigationNode Title="Documents" Url="{site}/Shared%20Documents" IsExternal="false" />
+                    </pnp:StructuralNavigation>
+                </pnp:GlobalNavigation>
+            </pnp:Navigation>
+            <!-- ═══════════════════════════════════════
+           PAGES
+      ════════════════════════════════════════ -->
+            <pnp:ClientSidePages>
+                <pnp:ClientSidePage
+          PromoteAsNewsArticle="false"
+          PromoteAsTemplate="false"
+          Overwrite="true"
+          Title="Mission Control"
+          PageName="Mission-Control.aspx">
+                    <pnp:Header
+            Type="None"
+            LayoutType="FullWidthImage"
+            ShowTopicHeader="false"
+            ShowPublishDate="false"
+            ShowBackgroundGradient="false"
+            TopicHeader=""
+            AlternativeText=""
+            Authors=""
+            AuthorByLineId="-1" />
+                    <pnp:Sections>
+                        <!-- ═══ SECTION 1: HERO ═══ -->
+                        <pnp:Section Order="1" Type="TwoColumnLeft" BackgroundEmphasis="Strong">
+                            <pnp:Controls>
+                                <pnp:CanvasControl
+                  WebPartType="Text"
+                  ControlId="11111111-1111-1111-1111-111111111101"
+                  Order="1"
+                  Column="1">
+                                    <pnp:CanvasControlProperties>
+                                        <pnp:CanvasControlProperty
+                      Key="Text"
+                      Value="&lt;p&gt;&lt;span style=&quot;font-size:11px;letter-spacing:2px;color:#4a6fa8;&quot;&gt;MISSION CONTROL &amp;middot; KNOWLEDGE PLATFORM&lt;/span&gt;&lt;/p&gt;&lt;h1&gt;Your organisation&apos;s&lt;/h1&gt;&lt;h1&gt;&lt;span style=&quot;color:#a8b8f8;&quot;&gt;knowledge universe&lt;/span&gt;&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;font-size:16px;&quot;&gt;Every document, person and project &amp;mdash; mapped as a living 3D galaxy. Navigate your knowledge visually.&lt;/span&gt;&lt;/p&gt;" />
+                                    </pnp:CanvasControlProperties>
+                                </pnp:CanvasControl>
+                                <pnp:CanvasControl
+                  WebPartType="Button"
+                  JsonControlData="{&quot;id&quot;:&quot;0f087d7f-520e-42b7-89c0-496aaf979d58&quot;,&quot;instanceId&quot;:&quot;11111111-1111-1111-1111-111111111102&quot;,&quot;title&quot;:&quot;Button&quot;,&quot;description&quot;:&quot;Launch galaxy&quot;,&quot;dataVersion&quot;:&quot;1.3&quot;,&quot;properties&quot;:{&quot;alignment&quot;:&quot;Left&quot;,&quot;minimumLayoutWidth&quot;:1,&quot;isDynamicWidthEnabled&quot;:true,&quot;linkUrl&quot;:&quot;{site}/SitePages/Mission-Control.aspx&quot;},&quot;serverProcessedContent&quot;:{&quot;htmlStrings&quot;:{},&quot;searchablePlainTexts&quot;:{&quot;label&quot;:&quot;Launch galaxy&quot;},&quot;imageSources&quot;:{},&quot;links&quot;:{}},&quot;dynamicDataPaths&quot;:{},&quot;dynamicDataValues&quot;:{}}"
+                  ControlId="0f087d7f-520e-42b7-89c0-496aaf979d58"
+                  Order="2"
+                  Column="1" />
+                                <pnp:CanvasControl
+                  WebPartType="Button"
+                  JsonControlData="{&quot;id&quot;:&quot;0f087d7f-520e-42b7-89c0-496aaf979d58&quot;,&quot;instanceId&quot;:&quot;11111111-1111-1111-1111-111111111103&quot;,&quot;title&quot;:&quot;Button&quot;,&quot;description&quot;:&quot;Browse documents&quot;,&quot;dataVersion&quot;:&quot;1.3&quot;,&quot;properties&quot;:{&quot;alignment&quot;:&quot;Left&quot;,&quot;minimumLayoutWidth&quot;:1,&quot;isDynamicWidthEnabled&quot;:true,&quot;linkUrl&quot;:&quot;{site}/Shared%20Documents&quot;,&quot;customStyles&quot;:{&quot;appearance&quot;:{&quot;backgroundColor&quot;:&quot;#06080f&quot;},&quot;border&quot;:{&quot;color&quot;:&quot;ThemeTertiary&quot;}}},&quot;serverProcessedContent&quot;:{&quot;htmlStrings&quot;:{},&quot;searchablePlainTexts&quot;:{&quot;label&quot;:&quot;Browse documents&quot;},&quot;imageSources&quot;:{},&quot;links&quot;:{}},&quot;dynamicDataPaths&quot;:{},&quot;dynamicDataValues&quot;:{}}"
+                  ControlId="0f087d7f-520e-42b7-89c0-496aaf979d58"
+                  Order="3"
+                  Column="1" />
+                                <pnp:CanvasControl
+                  WebPartType="Image"
+                  JsonControlData="{&quot;id&quot;:&quot;d1d91016-032f-456d-98a4-721247c305e8&quot;,&quot;instanceId&quot;:&quot;11111111-1111-1111-1111-111111111104&quot;,&quot;title&quot;:&quot;Image&quot;,&quot;description&quot;:&quot;Galaxy logo&quot;,&quot;dataVersion&quot;:&quot;1.13&quot;,&quot;properties&quot;:{&quot;imageSourceType&quot;:2,&quot;captionText&quot;:&quot;&quot;,&quot;altText&quot;:&quot;Knowledge Galaxy&quot;,&quot;linkUrl&quot;:&quot;&quot;,&quot;overlayText&quot;:&quot;&quot;,&quot;fileName&quot;:&quot;galaxy-logo.svg&quot;,&quot;minimumLayoutWidth&quot;:1,&quot;isStretchEnabled&quot;:false,&quot;alignment&quot;:&quot;Center&quot;,&quot;fixAspectRatio&quot;:true},&quot;serverProcessedContent&quot;:{&quot;htmlStrings&quot;:{},&quot;searchablePlainTexts&quot;:{},&quot;imageSources&quot;:{&quot;imageSource&quot;:&quot;{site}/SiteAssets/galaxy-logo.svg&quot;},&quot;links&quot;:{}},&quot;dynamicDataPaths&quot;:{},&quot;dynamicDataValues&quot;:{}}"
+                  ControlId="d1d91016-032f-456d-98a4-721247c305e8"
+                  Order="1"
+                  Column="2" />
+                            </pnp:Controls>
+                        </pnp:Section>
+                        <!-- ═══ SECTION 2: KNOWLEDGE GALAXY WEB PART ═══ -->
+                        <pnp:Section Order="2" Type="OneColumnFullWidth" BackgroundEmphasis="Strong">
+                            <pnp:Controls>
+                                <pnp:CanvasControl
+                  WebPartType="Custom"
+                  JsonControlData="{&quot;id&quot;:&quot;5743a0ee-2696-471f-be74-42b27c444d24&quot;,&quot;instanceId&quot;:&quot;22222222-2222-2222-2222-222222222222&quot;,&quot;title&quot;:&quot;Knowledge Galaxy&quot;,&quot;description&quot;:&quot;3D organisational knowledge graph&quot;,&quot;dataVersion&quot;:&quot;1.0&quot;,&quot;properties&quot;:{&quot;title&quot;:&quot;Knowledge Galaxy&quot;,&quot;siteUrl&quot;:&quot;&quot;,&quot;maxDocuments&quot;:200,&quot;enableMockData&quot;:true,&quot;autoRotateSpeed&quot;:1},&quot;serverProcessedContent&quot;:{&quot;htmlStrings&quot;:{},&quot;searchablePlainTexts&quot;:{},&quot;imageSources&quot;:{},&quot;links&quot;:{}},&quot;dynamicDataPaths&quot;:{},&quot;dynamicDataValues&quot;:{}}"
+                  ControlId="5743a0ee-2696-471f-be74-42b27c444d24"
+                  Order="1"
+                  Column="1" />
+                            </pnp:Controls>
+                        </pnp:Section>
+                        <!-- ═══ SECTION 3: NEWS + ACTIVITY ═══ -->
+                        <pnp:Section Order="3" Type="TwoColumnLeft" BackgroundEmphasis="Neutral">
+                            <pnp:Controls>
+                                <pnp:CanvasControl
+                  WebPartType="News"
+                  JsonControlData="{&quot;id&quot;:&quot;8c88f208-6c77-4bdb-86a0-0c47b4316588&quot;,&quot;instanceId&quot;:&quot;33333333-3333-3333-3333-333333333331&quot;,&quot;title&quot;:&quot;News&quot;,&quot;description&quot;:&quot;Show news from this site&quot;,&quot;dataVersion&quot;:&quot;1.0&quot;,&quot;properties&quot;:{&quot;layoutId&quot;:&quot;Card&quot;,&quot;dataProviderId&quot;:&quot;RecentNewsDataProvider&quot;,&quot;showPublishDate&quot;:true,&quot;carouselAutoPlayEnabled&quot;:false},&quot;serverProcessedContent&quot;:{&quot;htmlStrings&quot;:{},&quot;searchablePlainTexts&quot;:{},&quot;imageSources&quot;:{},&quot;links&quot;:{}},&quot;dynamicDataPaths&quot;:{},&quot;dynamicDataValues&quot;:{}}"
+                  ControlId="8c88f208-6c77-4bdb-86a0-0c47b4316588"
+                  Order="1"
+                  Column="1" />
+                                <pnp:CanvasControl
+                  WebPartType="SiteActivity"
+                  JsonControlData="{&quot;id&quot;:&quot;eb95c819-ab8f-4689-bd03-0c2d65d47b1f&quot;,&quot;instanceId&quot;:&quot;33333333-3333-3333-3333-333333333332&quot;,&quot;title&quot;:&quot;Site activity&quot;,&quot;description&quot;:&quot;Show site activity&quot;,&quot;dataVersion&quot;:&quot;1.0&quot;,&quot;properties&quot;:{&quot;maxItems&quot;:8},&quot;serverProcessedContent&quot;:{&quot;htmlStrings&quot;:{},&quot;searchablePlainTexts&quot;:{},&quot;imageSources&quot;:{},&quot;links&quot;:{}},&quot;dynamicDataPaths&quot;:{},&quot;dynamicDataValues&quot;:{}}"
+                  ControlId="eb95c819-ab8f-4689-bd03-0c2d65d47b1f"
+                  Order="1"
+                  Column="2" />
+                            </pnp:Controls>
+                        </pnp:Section>
+                        <!-- ═══ SECTION 4: QUICK LINKS ═══ -->
+                        <pnp:Section Order="4" Type="OneColumn" BackgroundEmphasis="None">
+                            <pnp:Controls>
+                                <pnp:CanvasControl
+                  WebPartType="QuickLinks"
+                  JsonControlData="{&quot;id&quot;:&quot;c70391ea-0b10-4ee9-b2b4-006d3fcad0cd&quot;,&quot;instanceId&quot;:&quot;44444444-4444-4444-4444-444444444444&quot;,&quot;title&quot;:&quot;Quick links&quot;,&quot;description&quot;:&quot;Quick links&quot;,&quot;dataVersion&quot;:&quot;2.0&quot;,&quot;properties&quot;:{&quot;items&quot;:[{&quot;title&quot;:&quot;Knowledge Galaxy&quot;,&quot;url&quot;:&quot;{site}/SitePages/Mission-Control.aspx&quot;,&quot;icon&quot;:&quot;Lightbulb&quot;},{&quot;title&quot;:&quot;All projects&quot;,&quot;url&quot;:&quot;{site}/Shared%20Documents&quot;,&quot;icon&quot;:&quot;FabricFolder&quot;},{&quot;title&quot;:&quot;My documents&quot;,&quot;url&quot;:&quot;/_layouts/15/MySite.aspx&quot;,&quot;icon&quot;:&quot;Document&quot;},{&quot;title&quot;:&quot;Ask the agent&quot;,&quot;url&quot;:&quot;https://m365.cloud.microsoft/chat&quot;,&quot;icon&quot;:&quot;Chat&quot;}],&quot;isMigrated&quot;:true,&quot;layoutId&quot;:&quot;Compact&quot;,&quot;shouldShowThumbnail&quot;:true,&quot;imageWidth&quot;:100,&quot;buttonLayoutOptions&quot;:{&quot;showDescription&quot;:false,&quot;buttonTreatment&quot;:2}},&quot;serverProcessedContent&quot;:{&quot;htmlStrings&quot;:{},&quot;searchablePlainTexts&quot;:{},&quot;imageSources&quot;:{},&quot;links&quot;:{}},&quot;dynamicDataPaths&quot;:{},&quot;dynamicDataValues&quot;:{}}"
+                  ControlId="c70391ea-0b10-4ee9-b2b4-006d3fcad0cd"
+                  Order="1"
+                  Column="1" />
+                            </pnp:Controls>
+                        </pnp:Section>
+                        <!-- ═══ SECTION 5: PEOPLE ═══ -->
+                        <pnp:Section Order="5" Type="OneColumn" BackgroundEmphasis="None">
+                            <pnp:Controls>
+                                <pnp:CanvasControl
+                  WebPartType="People"
+                  JsonControlData="{&quot;id&quot;:&quot;7f718435-ee4d-431c-bdbf-9c4ff326f46e&quot;,&quot;instanceId&quot;:&quot;55555555-5555-5555-5555-555555555555&quot;,&quot;title&quot;:&quot;People&quot;,&quot;description&quot;:&quot;Display selected people and their profiles&quot;,&quot;dataVersion&quot;:&quot;1.3&quot;,&quot;properties&quot;:{&quot;persons&quot;:[],&quot;layout&quot;:2,&quot;personaSize&quot;:14},&quot;serverProcessedContent&quot;:{&quot;htmlStrings&quot;:{},&quot;searchablePlainTexts&quot;:{},&quot;imageSources&quot;:{},&quot;links&quot;:{}},&quot;dynamicDataPaths&quot;:{},&quot;dynamicDataValues&quot;:{}}"
+                  ControlId="7f718435-ee4d-431c-bdbf-9c4ff326f46e"
+                  Order="1"
+                  Column="1" />
+                            </pnp:Controls>
+                        </pnp:Section>
+                    </pnp:Sections>
+                </pnp:ClientSidePage>
+            </pnp:ClientSidePages>
+            <pnp:Header Layout="Compact" MenuStyle="MegaMenu" />
+            <pnp:Footer Enabled="true" RemoveExistingNodes="false" BackgroundEmphasis="Strong" />
+        </pnp:ProvisioningTemplate>
+    </pnp:Templates>
+</pnp:Provisioning>

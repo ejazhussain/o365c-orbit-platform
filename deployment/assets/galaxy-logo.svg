@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" 
+     viewBox="0 0 64 64" width="64" height="64">
+    <!-- Dark background circle -->
+    <circle cx="32" cy="32" r="30" fill="#06080f" 
+          stroke="#1e2a4a" stroke-width="1"/>
+    <!-- Orbit rings -->
+    <ellipse cx="32" cy="32" rx="24" ry="8" 
+           fill="none" stroke="#4a6fa8" 
+           stroke-width="0.8" opacity="0.6"
+           transform="rotate(-30 32 32)"/>
+    <ellipse cx="32" cy="32" rx="18" ry="6" 
+           fill="none" stroke="#7f77dd" 
+           stroke-width="0.8" opacity="0.4"
+           transform="rotate(45 32 32)"/>
+    <!-- Centre star -->
+    <circle cx="32" cy="32" r="4" fill="#a8b8f8"/>
+    <!-- Orbiting dots -->
+    <circle cx="52" cy="28" r="2" fill="#4A90D9"/>
+    <circle cx="18" cy="44" r="1.5" fill="#50C878"/>
+    <circle cx="42" cy="48" r="1.5" fill="#FF6B6B"/>
+    <circle cx="16" cy="22" r="2" fill="#FFD700"/>
+</svg>

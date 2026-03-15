@@ -1,0 +1,45 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "O365C - Orbit Platform",
+    "id": "461d7d94-4557-479f-91dc-7906f247919b",
+    "version": "2.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.22.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "O365C - Orbit Platform description"
+      },
+      "longDescription": {
+        "default": "O365C - Orbit Platform description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "O365C - Orbit Platform Feature",
+        "description": "The feature that activates elements of the O365C - Orbit Platform solution.",
+        "id": "99039cdc-cb43-4c7d-ab90-3cc9380229e4",
+        "version": "1.0.0.0",
+        "assets": {
+          "elementManifests": [
+            "elements.xml"
+          ]
+        }
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/o365c-orbit-platform.sppkg"
+  }
+}

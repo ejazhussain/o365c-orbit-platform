@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <CustomAction
+    Title="MissionControlHeader"
+    Location="ClientSideExtension.ApplicationCustomizer"
+    ClientSideComponentId="0d7de814-0684-4d8d-b63e-f37f802337cb"
+    ClientSideComponentProperties="{&quot;testMessage&quot;:&quot;Mission Control&quot;}">
+  </CustomAction>
+</Elements>

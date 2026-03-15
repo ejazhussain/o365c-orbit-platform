@@ -1,0 +1,30 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "59a307a0-3dd1-45f0-87dd-01e1352ae082",
+  "alias": "KpiStatsWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart", "TeamsPersonalApp"],
+  "supportsFullBleed": true,
+  "preconfiguredEntries": [
+    {
+      "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+      "group": { "default": "Knowledge Galaxy" },
+      "title": { "default": "KPI Stats" },
+      "description": { "default": "Knowledge Galaxy KPI statistics band" },
+      "officeFabricIconFontName": "BarChart4",
+      "properties": {
+        "stat1Value": "2,847",
+        "stat1Label": "Documents",
+        "stat2Value": "142",
+        "stat2Label": "Contributors",
+        "stat3Value": "38",
+        "stat3Label": "Active Projects",
+        "stat4Value": "96%",
+        "stat4Label": "Content Tagged"
+      }
+    }
+  ]
+}

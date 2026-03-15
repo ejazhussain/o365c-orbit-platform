@@ -1,0 +1,30 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "initialPage": "https://{tenantDomain}/_layouts/workbench.aspx",
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://ejazhussain.sharepoint.com/sites/mission-control/SitePages/Mission-Control.aspx",
+      "customActions": {
+        "0d7de814-0684-4d8d-b63e-f37f802337cb": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Mission Control"
+          }
+        }
+      }
+    },
+    "missionControlHeader": {
+      "pageUrl": "https://ejazhussain.sharepoint.com/sites/mission-control/SitePages/Mission-Control.aspx",
+      "customActions": {
+        "0d7de814-0684-4d8d-b63e-f37f802337cb": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Mission Control"
+          }
+        }
+      }
+    }
+  }
+}

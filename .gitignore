@@ -1,0 +1,52 @@
+# Logs
+*.log
+npm-debug.log*
+logs/
+
+# Dependency directories
+node_modules/
+
+# Build generated files
+dist/
+lib/
+lib-dts/
+lib-commonjs/
+lib-esm/
+jest-output/
+release/
+temp/
+.heft/
+
+# SharePoint build output — all generated artefacts
+sharepoint/solution/
+sharepoint/assets/ClientSideAssets/
+
+# Sass / Haste caches
+.sass-cache/
+.haste_cache/
+
+# Yeoman config (machine-specific)
+.yo-rc.json
+
+# Coverage
+coverage/
+
+# OSX
+.DS_Store
+
+# Visual Studio files
+.ntvs_analysis.dat
+.vs/
+bin/
+obj/
+
+# Resx Generated Code
+*.resx.ts
+
+# Styles Generated Code
+*.scss.ts
+
+# ── NOT ignored (tracked in repo) ──────────────────────────
+# deployment/   — scripts and provisioning artefacts
+# docs/         — architecture, submission and demo docs
+# README.md     — project documentation
